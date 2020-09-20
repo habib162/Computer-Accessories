@@ -1,0 +1,150 @@
+
+.modal-body{
+    background: #191919;
+    
+}
+.modal-footer{
+    background: #191919;
+}
+.modal-header{
+    background: #191919;
+      
+}
+.loginform{
+    width: 500px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: #191919;
+    text-align: center;
+}
+ .modal-header h3{
+    color: aliceblue;
+    text-transform: uppercase;
+    font-weight: 500;
+} 
+.loginform input[type="text"],.loginform input[type="password"]{
+    border:0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #3498db;
+    padding: 14px 10px;
+    width: 270px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: .25s;
+}
+.loginform input[type="text"]:focus,.loginform input[type="password"]:focus{
+    width: 350px;
+    border-color: #2ecc71;
+}
+.loginform input[type="submit"]{
+    border:0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid  #2ecc71;
+    padding: 14px 40px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: .25s;
+    cursor: pointer;
+}
+.loginform input[type="submit"]:hover{
+    background: #2ecc71;
+}
+.modal-footer button[type="button2"]{
+    border:0;
+    background: none;
+    display: block;
+    text-align: center;
+    border: 2px solid  #2ecc71;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: .25s;
+    cursor: pointer;
+}
+.modal-footer button[type="submit"]:hover{
+    background: #2ecc71;
+}
+.modal-footer button[type="button1"]{
+    border:0;
+    background: none;
+    display: block;
+    text-align: center;
+    border: 2px solid  red;
+    padding: 5px 25px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: .25s;
+    cursor: pointer;
+}
+.modal-footer button[type="button1"]:hover{
+    background: red;
+}
+
+/* registration */
+.modal-header h4{
+    color: aliceblue;
+    text-transform: uppercase;
+    
+} 
+.col-lg-6 input[type="email"],.col-lg-6 input[type="text"],.col-lg-6 input[type="password"]{
+    border:0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #3498db;
+    padding: 14px 10px;
+ 
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: .25s;
+}
+.col-lg-6 input[type="email"]:focus,.col-lg-6 input[type="text"]:focus,.col-lg-6 input[type="password"]:focus{
+    
+    border-color: #2ecc71;
+}
+
+.par{
+    color: white;
+    font-size: 70%;
+}
+.btn3{
+    border:0;
+    background: none;
+    display: block;
+    text-align: center;
+    border: 2px solid  #2ecc71;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: .25s;
+    cursor: pointer;
+}
+.btn3:hover{
+    background: #2ecc71;
+}
+.modal-body label{
+    color: white;
+    text-decoration: none;
+    font-size: 60%;
+    text-transform: uppercase; 
+    
+}
+.valid{
+    color: green;
+}
+.invalid{
+    color: red;
+}

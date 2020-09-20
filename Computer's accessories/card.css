@@ -1,0 +1,60 @@
+.cardbody{
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    flex-wrap: wrap;
+    background: #010615;
+    padding-top: 20px;
+}
+ .card{
+    position: relative;
+    width: 300px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    background: #060c21;
+    margin:40px;
+}
+.card::before
+{
+    content: '';
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    right: -2px;
+    bottom: -2px;
+    background: #fff;
+    z-index: -1;
+
+}.card::after
+{
+    content: '';
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    right: -2px;
+    bottom: -2px;
+    background: #fff;
+    z-index: -2;
+    filter: blur(40px);
+
+}
+.card:nth-child(1)::before,
+.card:nth-child(1)::after
+{
+    background: linear-gradient(235deg,#89ff00,#010615, #00bcd4);
+}
+.card .glass{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    display: block;
+    background: rgba(red, green, blue, .1);
+    pointer-events: none;
+}
+.card .content{
+    padding: 20px;
+    color: #fff;
+}

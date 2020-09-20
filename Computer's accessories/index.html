@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet"type="text/css" href="css/style.css">
+    <link rel="stylesheet"type="text/css" href="css/dropdown.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="card.css">
+    <link rel="stylesheet" href="css/login.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="css/ionicons.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/aos.css">
+    <link rel="stylesheet" href="css/card.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Grandstander:wght@200&display=swap" rel="stylesheet">
+    <title>Computer Accessories</title>
+</head>
+<body >
+        <div class="bgimg">
+        <div class="nav1 ">
+        <nav class="navbar navbar-expand-lg navbar-dark ">
+            <a class="navbar-brand" href="#">
+              <img src="images/log1o.png"class="logo">
+              </a>
+            <div class="container">
+                <button class="navbar-toggler  ml-auto" type="button"data-toggle="collapse"data-target="#collapsenavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse text-center"id="collapsenavbar">
+
+                    <ul class="navbar-nav ml-auto animate__animated animate__bounce "id="navbtn">
+                        
+                        <li class="nav-item">
+                            <a href="" class="nav-link text-white">HOME</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="" class="nav-link text-white">SEVICES</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a href="" class="nav-link dropdown-toggle text-white"id="navbarDropdownId" role="button" data-toggle="dropdown">Brand</a>
+                              <div class="dropdown-menu" aria-labelledby="navbardropdownId">
+                                <a class="dropdown-item"href="#">logitech</a>
+                                <a class="dropdown-item"href="#">A4tech</a>
+                                <a class="dropdown-item"href="#">Asus</a>
+                                <a class="dropdown-item"href="#">intel</a>
+                              </div>  
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a href="" class="nav-link dropdown-toggle text-white"id="navbarDropdownId1" role="button" data-toggle="dropdown">ACCESSORIES</a>
+                            <div class="dropdown-menu" aria-labelledby="navbardropdownId1">
+                              <a class="dropdown-item"href="#">Mouse</a>
+                              <a class="dropdown-item"href="#">keyboard</a>
+                              <a class="dropdown-item"href="#">Graphics card</a>
+                              <a class="dropdown-item"href="#">Earphone</a>
+                            </div> 
+                        </li>
+                        <li class="nav-item">
+                            <a href="" class="nav-link text-white"data-toggle="modal" data-target="#myModal">LOGIN</a>
+                        </li>
+                        <li class="nav-item">
+                            
+                            <a href="" class="nav-link text-white"data-toggle="modal" data-target="#myModal2">SIGN UP</a>
+                        </li>
+                        <li class="nav-item" id="carticon">
+                            <i class="fas fa-cart-arrow-down bg-dark"><small><top>(0)</top></small></i>
+                        </li> 
+                    </ul>
+                    
+                </div>
+            </div>
+        </nav>
+        
+      </div>
+    
+      <div class="container text-center headerset text-white animate__animated animate__slideInUp ">
+        <h2>Welcome to <span class="colorchange">Computer Accessories.</span><br>Its nice to meet you</h2>
+      </div>
+        <!-- <div class="search-box m-auto">
+            <input class="search-txt"type="text"name="" placeholder="search...">
+            <a class="search-btn"href="#">
+                <i class="fas fa-search"></i>
+            </a>
+        </div> -->
+    </div>
+   <!--Start jumbotron-->
+   <div class="jumbotron text-center text-info" style="height: 30rem;">
+    <h1 style="color: red;">Special offer</h1>
+    <p style="color: white;" >One marketplace to Buy right product</p> 
+  </div>
+  <!--End jumbotron-->
+       
+        <!-- Start The Modal -->
+        <div class="modal fade " id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModallabel">
+            <div class="modal-dialog">
+             <div class="modal-content">
+              <!-- Modal Header -->
+              <div class="modal-header">
+                <h3 class="modal-title">LOGIN</h3> 
+              </div>
+
+             <!-- Modal body -->
+          <div class="loginbody">
+            <div class="modal-body "style="margin-top:30px">
+                    <div class="">
+                        <form  id="mymodal" action="index.html" method="post" >
+                          <div class="row" >
+                          <div class="form-group loginform col-12">
+                            <input type="text"name=" "id="loguser"placeholder="Username" required>
+                              <div class="invalid-feedback"> Incorrect username format.<br><small>At least 3 letters followed by hyphen or a digits or letter</small> </div>
+                              <div class="valid-feedback"> Correct format. </div>
+                            </div>
+                          </div>
+                            <div class="row"style="margin-top:30px">
+                            <div class="form-group loginform col-12">
+                            <input type="password"name="" id="logpass" placeholder="password"   required>
+                            <div class="invalid-feedback"> Incorrect password format..<br><small> **Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters</small>  </div>
+                              <div class="valid-feedback"> Correct format.</div>
+                            <input type="submit"name=""value="LOGIN">
+                          </div>
+                        </div>
+
+                        </form>
+                     </div>
+                  </div>
+               </div>
+           
+                            
+            <!-- Modal footer -->
+              <div class="modal-footer">
+                <button type="button1" class="btn btn-secondary" data-dismiss="modal">ClOSE</button>
+                <button type="button2" class="btn btn-outline">SIGN UP</button>
+              </div>
+            </div>
+           </div>
+          </div> 
+
+          <!-- End modal -->
+
+          <!-- The Modal for Sign up -->   
+          <div class="modal fade "id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModallabel2">
+            <div class="modal-dialog modal-dialog-srollable">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h4 class="modal-title">REGISTRATION</h4>
+                </div>
+                 <!-- The Modal Body -->  
+                <div class="modal-body">
+                 <div class="container">
+                <form action="index.html" method="POST">
+                      <div class="row">
+                      <div class="form-group col-lg-6 col-12">
+                        <label for="fname">Full Name:</label>
+                        <input type="text" class="form-control" aria-label="default" placeholder="Full Name" id="fname"required>
+                        <div class="invalid-feedback"> Incorrect name format</div>
+                        <div class="valid-feedback"> Correct format.</div>
+                      </div>
+                      <div class="form-group col-lg-6 col-12">
+                        <label for="uname">UserName:</label>
+                        <input type="text" class="form-control " aria-label="default" placeholder="Enter UserName" id="uname"required>
+                        <div class="invalid-feedback"> Incorrect Username format.<br><small>**At least 3 letters followed by hyphen or a digits or letter</small> </div>
+                        <div class="valid-feedback"> Correct format.</div>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="form-group col-lg-6 col-12">
+                        <label for="email">Email:</label>
+                        <input type="email" class="form-control" aria-label="default" placeholder="example@gmail.com" id="email"required>
+                        <div class="invalid-feedback"> Incorrect Email format. </div>
+                        <div class="valid-feedback"> Correct format.</div>
+
+                      </div>
+                      <div class="form-group col-lg-6 col-12">
+                        <label for="phone">Phone:</label>
+                        <input type="text" class="form-control " aria-label="default" placeholder="Phone Number" id="phone"required>
+                        <div class="invalid-feedback"> Incorrect Phonenumber format. </div>
+                        <div class="valid-feedback"> Correct format.</div>
+                      </div>
+                    </div>
+                    
+                    <div class="row">
+                      <div class="form-group col-lg-6 col-12">
+                        <label for="pwd">Password:</label>
+                          <input type="password" class="form-control" placeholder="Password" id="pwd"required>
+                          <div class="invalid-feedback"> Incorrect password format..<br><small> **Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters</small>  </div>
+                        <div class="valid-feedback"> Correct format.</div>
+                      </div>
+                    <div class="form-group col-lg-6 col-12">
+                        <label for="cpwd">Confirm Password:</label>
+                        <input type="password" class="form-control " placeholder="Confirm Password"  id="cpwd"required>
+                        <div class="invalid-feedback">password doesn't match </div>
+                        <div class="valid-feedback"> password matched.</div>
+                      </div>
+                    </div>
+                    <input type="submit" class="btn btn-primary" value="SIGN UP">
+                </form>
+                  <div class="modal-footer">
+                    <p class="par mr-auto">Already Registered?<button class="btn3">LOG IN</button></p>
+                    <button type="button1" class="btn btn-secondary" data-dismiss="modal">CLOSE</button>
+                  </div>
+               </div>
+            </div>   
+            </div> 
+          </div> 
+         </div>
+         
+          <!-- End The Modal -->
+        
+     <!-- start card  -->
+            <div class="container">
+              <h1 style="text-align: center; margin-top: 50px;color: aliceblue;">Features Products</h1>
+              <h3 style="text-align: center; margin-top: 30px;color: aliceblue;">MOUSE</h3>
+              <div class="row">
+                <div class="col-lg-4 col-md-6">
+                 <div class="box">
+                  <div class="glass">
+                   <div class="content">
+                    <img src="images/product2.jpg"class="card-img-top"height="180" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title"> ASUS P507 ROG Gladius II Gaming Mouse Black</h5>
+                      <p class="price"style="text-align:center;">	3,800Tk</p>
+                      <a href="#" class="btn"data-toggle="modal" data-target="#myModal3">DETAILS</a>
+                    </div>
+                  </div>
+                </div>
+             </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <div class="box">
+               <div class="glass">
+                <div class="content">
+                  <figure>
+                 <img src="images/product1.jpg"class="card-img-top"height="175" alt="...">
+               </figure>
+                 <div class="card-body">
+                   <h5 class="card-title">Fantech T532 Premium Office Mouse Black</h5>
+                   <p class="price"style="text-align:center;">	320Tk</p>
+                   <a href="#" class="btn"data-toggle="modal" data-target="#myModal3">DETAILS</a>
+                 </div>
+               </div>
+             </div>
+          </div>
+         </div>
+         <div class="col-lg-4 col-md-6">
+          <div class="box">
+           <div class="glass">
+            <div class="content">
+              <figure>
+             <img src="images/p3.jpg"class="card-img-top"height="175" alt="...">
+           </figure>
+             <div class="card-body">
+               <h5 class="card-title">Fantech X11 Daredevil RGB Gaming Mouse</h5>
+               <p class="price"style="text-align:center;">	2320Tk</p>
+               <a href="#" class="btn"data-toggle="modal" data-target="#myModal3">DETAILS</a>
+             </div>
+           </div>
+         </div>
+      </div>
+     </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-4 col-md-6">
+       <div class="box">
+        <div class="glass">
+         <div class="content">
+           <figure>
+          <img src="images/p4.jpg"class="card-img-top"height="175" alt="...">
+        </figure>
+          <div class="card-body">
+            <h5 class="card-title">HAVIT HV-MS736 Optical gaming mouse</h5>
+            <p class="price"style="text-align:center;">	470Tk</p>
+            <a href="#" class="btn"data-toggle="modal" data-target="#myModal3">DETAILS</a>
+          </div>
+        </div>
+      </div>
+   </div>
+  </div>
+  <div class="col-lg-4 col-md-6">
+    <div class="box">
+     <div class="glass">
+      <div class="content">
+        <figure>
+       <img src="images/p5.jpg"class="card-img-top"height="175" alt="...">
+     </figure>
+       <div class="card-body">
+         <h5 class="card-title">Havit MS997GT Wireless Gaming Optical Mouse</h5>
+         <p class="price"style="text-align:center;">575Tk</p>
+         <a href="#" class="btn"data-toggle="modal" data-target="#myModal3">DETAILS</a>
+       </div>
+     </div>
+   </div>
+</div>
+</div>
+<div class="col-lg-4 col-md-6">
+<div class="box">
+ <div class="glass">
+  <div class="content">
+    <figure>
+   <img src="images/p3.jpg"class="card-img-top"height="175" alt="...">
+ </figure>
+   <div class="card-body">
+     <h5 class="card-title">Fantech X11 Daredevil Macro RGB Gaming Mouse</h5>
+     <p class="price"style="text-align:center;">	2320Tk</p>
+     <a href="#" class="btn"data-toggle="modal" data-target="#myModal3">DETAILS</a>
+   </div>
+ </div>
+</div>
+</div>
+</div>
+</div>
+<h3 style="text-align: center; margin-top: 30px;color: aliceblue;">GRAPHICS CARD</h3>
+              <div class="row">
+                <div class="col-lg-4 col-md-6">
+                 <div class="box">
+                  <div class="glass">
+                   <div class="content">
+                     <figure>
+                    <img src="images/pro1.jpg"class="card-img-top"height="175" alt="...">
+                  </figure>
+                    <div class="card-body">
+                      <h5 class="card-title">Asus GeForce GT 710 2GB DDR5 Graphics Card</h5>
+                      <p class="price"style="text-align:center;">	5,500Tk</p>
+                      <a href="#" class="btn"data-toggle="modal" data-target="#myModal3">DETAILS</a>
+                    </div>
+                  </div>
+                </div>
+             </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <div class="box">
+               <div class="glass">
+                <div class="content">
+                  <figure>
+                 <img src="images/pro2.jpg"class="card-img-top"height="175" alt="...">
+               </figure>
+                 <div class="card-body">
+                   <h5 class="card-title">Zotac GeForce GT 710 2GB DDR3 Graphics Card</h5>
+                   <p class="price"style="text-align:center;">	4,100Tk</p>
+                   <a href="#" class="btn"data-toggle="modal" data-target="#myModal3">DETAILS</a>
+                 </div>
+               </div>
+             </div>
+          </div>
+         </div>
+         <div class="col-lg-4 col-md-6">
+          <div class="box">
+           <div class="glass">
+            <div class="content">
+              <figure>
+             <img src="images/pro3.jpg"class="card-img-top"height="175" alt="...">
+           </figure>
+             <div class="card-body">
+               <h5 class="card-title">Razer Core X Thunderbolt 3 External Graphics Card</h5>
+               <p class="price"style="text-align:center;">35,000Tk</p>
+               <a href="#" class="btn"data-toggle="modal" data-target="#myModal3">DETAILS</a>
+             </div>
+           </div>
+         </div>
+      </div>
+     </div>
+    </div>
+    <h3 style="text-align: center; margin-top: 30px; text-shadow: tomato;color: aliceblue;">KEYBOARD</h3>
+    <div class="row">
+      <div class="col-lg-4 col-md-6">
+       <div class="box">
+        <div class="glass">
+         <div class="content">
+           <figure>
+          <img src="images/pro4.jpg"class="card-img-top"height="175" alt="...">
+        </figure>
+          <div class="card-body">
+            <h5 class="card-title">Rapoo V810 Cherry USB Mechanical Gaming Keyboard Black</h5>
+            <p class="price"style="text-align:center;">	4,500Tk</p>
+            <a href="#" class="btn"data-toggle="modal" data-target="#myModal3">DETAILS</a>
+          </div>
+        </div>
+      </div>
+   </div>
+  </div>
+  <div class="col-lg-4 col-md-6">
+    <div class="box">
+     <div class="glass">
+      <div class="content">
+        <figure>
+       <img src="images/pro5.jpg"class="card-img-top"height="175" alt="...">
+     </figure>
+       <div class="card-body">
+         <h5 class="card-title">Fantech PANTHEON MK881  RGB Mechanical Gaming Keyboard</h5>
+         <p class="price"style="text-align:center;">5,000Tk</p>
+         <a href="#" class="btn"data-toggle="modal" data-target="#myModal3">DETAILS</a>
+       </div>
+     </div>
+   </div>
+</div>
+</div>
+<div class="col-lg-4 col-md-6">
+<div class="box">
+ <div class="glass">
+  <div class="content">
+    <figure>
+   <img src="images/pro6.jpg"class="card-img-top"height="175" alt="...">
+ </figure>
+   <div class="card-body">
+     <h5 class="card-title">Havit KB-585GCM Wireless Gaming Keyboard </h5>
+     <p class="price"style="text-align:center;">	920Tk</p>
+     <a href="#" class="btn"data-toggle="modal" data-target="#myModal3">DETAILS</a>
+   </div>
+ </div>
+</div>
+</div>
+</div>
+</div>
+  </div>
+  <!-- modal of product details -->
+  <div class="modal fade " id="myModal3" tabindex="-1" role="dialog" aria-labelledby="myModallabel3">
+    <div class="modal-dialog">
+     <div class="modal-content">
+      <!-- Modal Header -->
+      <div class="modal-header">
+        <h3 class="modal-title">Details of this product</h3> 
+      </div>
+
+     <!-- Modal body -->
+    <div class="modal-body">
+            <div class="order">
+              <img src="images/product2.jpg"style="height:400px;width:100%;">
+              <h2 style="color: aliceblue; text-align: center;" >details</h2>
+              <small><ul style="color: aliceblue; text-align: center;">
+                  <li>Price:          300tk</li>
+                  <li>Regular Price:  350tk</li>
+                  <li>Status:         In Stock</li>
+                  <li>Brand:          Micropack</li></small>
+                </ul>
+                <h2 style="color: aliceblue; text-align: center;" >Features</h2>
+                <ul style="color: aliceblue; text-align: center;">
+                 <small><li>Model: Micropack M101</li>
+                 <li>Button: 3D</li>
+                 <li>Resolution: 1000dpi</li>
+                 <li>Cable Length: OD 3.2mm</li></small>
+                </ul>
+              </div>
+            </div>
+             </div>
+          
+       
+   
+                    
+    <!-- Modal footer -->
+      <div class="modal-footer">
+        <button type="button1" class="btn btn-secondary" data-dismiss="modal">ClOSE</button>
+        <button href="order.html"type="button2" class="btn btn-outline">Order now</button>
+      </div>
+    </div>
+   </div>
+  </div> 
+
+  <!-- End modal -->
+   
+    <!--Start Carousel-->
+    <div id="carouselId" class="carousel slide" data-ride="carousel"style="margin-top:20px">
+
+      <!-- Indicators -->
+      <ul class="carousel-indicators">
+        <li data-target="#carouselId" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselId" data-slide-to="1"></li>
+        <li data-target="#carouselId" data-slide-to="2"></li>
+      </ul>
+      
+      <!-- The slideshow -->
+      <div class="carousel-inner">
+        <div class="carousel-item active"style="height: 40rem;" data-interval="3000">
+          <img src="images/davide-boscolo-gz9njd0zYbQ-unsplash.jpg" alt="Buy Books" width="100%" height="100%">
+          <div class="carousel-caption d-none d-md-block">
+            <h1><span class="colorchange">20% offer this product</span></h1>
+            <h3>Hurry Up to get this Porducts.</h3>
+          </div>
+        </div>
+        <div class="carousel-item"style="height: 40rem;" data-interval="3000">
+          <img src="images/pexels-bongkarn-thanyakij-3803981.jpg" alt="Sell Books" width="100%" height="100%">
+          <div class="carousel-caption d-none d-md-block">
+            <h1><span class="colorchange">20% offer this product</span></h1>
+            <h3>Hurry Up to get this Porducts.</h3>
+          </div>
+        </div>
+        <div class="carousel-item" style="height: 40rem;" data-interval="3000">
+          <img src="images/antonio-manaligod-T_2UFB_xwzw-unsplash.jpg" alt="Express Yourself" width="100%" height="100%">
+          <div class="carousel-caption d-none d-md-block">
+            <h1><span class="colorchange">20%  offer this product</span></h1>
+            <h3>Hurry Up to get this Porducts.</h3>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Left and right controls -->
+      <a class="carousel-control-prev" href="#carouselId" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </a>
+      <a class="carousel-control-next" href="#carouselId" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </a>
+    </div>
+       <!--End Card-->
+          <div class="row" style="margin-right:50px">
+            <div class="col-md-6 col-lg-12 col-sm-6"style="margin-top: 20px">
+            <blockquote class= "shadow p-3 mb-5 bg-white rounded"> 
+              <p>“You can never go wrong by investing in communities and the human beings within them.” </p>
+              <div style="text-align: right;">
+                <a class="text-muted "><small> - Pam Moore</small></a>
+              </div>
+              </blockquote>
+            </div>
+          <div class="col-md-6 col-lg-12 col-sm-6"style="margin-top: 20px">
+          <blockquote class="shadow p-3 mb-5 bg-white rounded">
+            <p>“Content marketing is more than a buzzword. It is the hottest trend in marketing because it is the biggest gap between what buyers want and brands produce.” -</p>
+              <div style="text-align: right;">
+                <a class="text-muted"><small>-Michael Brenner</small></a>
+              </div>
+           </blockquote>
+          </div>
+        </div>
+      </div>
+      </div>
+
+      <!-- start footer -->
+       <footer class="ftco-footer ftco-section"style="margin-top:20px">
+        <div class="container">
+          <div class="row">
+            <div class="mouse">
+              <a href="#" class="mouse-icon">
+                <div class="mouse-wheel"><span class="ion-ios-arrow-up"></span></div>
+              </a>
+            </div>
+          </div>
+          <div class="row mb-5">
+            <div class="col-md">
+              <div class="ftco-footer-widget mb-4">
+                <h2 class="ftco-heading-2">Computer Accessories</h2>
+                <p>When the product is right, you don't have to great marketer</p>
+                <ul class="ftco-footer-social list-unstyled float-md-left float-left mt-5">
+                  <li class="ftco-animate"><a href="#"><span class="fab fa-twitter"></span></a></li>
+                  <li class="ftco-animate"><a href="#"><span class="fab fa-facebook"></span></a></li>
+                  <li class="ftco-animate"><a href="#"><span class="fab fa-instagram"></span></a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md">
+              <div class="ftco-footer-widget mb-4 ml-md-5">
+                <h2 class="ftco-heading-2">Menu</h2>
+                <ul class="list-unstyled">
+                  <li><a href="#" class="py-2 d-block">Shop</a></li>
+                  <li><a href="#" class="py-2 d-block">About</a></li>
+                  <li><a href="#" class="py-2 d-block">features</a></li>
+                  <li><a href="#" class="py-2 d-block">Contact Us</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-4">
+               <div class="ftco-footer-widget mb-4">
+                <h2 class="ftco-heading-2">Help</h2>
+                <div class="d-flex">
+                  <ul class="list-unstyled mr-l-5 pr-l-3 mr-4">
+                    <li><a href="#" class="py-2 d-block">Shipping Information</a></li>
+                    <li><a href="#" class="py-2 d-block">Returns &amp; Exchange</a></li>
+                    <li><a href="#" class="py-2 d-block">Terms &amp; Conditions</a></li>
+                    <li><a href="#" class="py-2 d-block">Privacy Policy</a></li>
+                  </ul>
+                  <ul class="list-unstyled">
+                    <li><a href="#" class="py-2 d-block">FAQs</a></li>
+                    <li><a href="#" class="py-2 d-block">Contact</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-2">
+              <div class="ftco-footer-widget mb-4">
+                <h2 class="ftco-heading-2">Have a Questions?</h2>
+                <div class="block-23 mb-3">
+                  <ul>
+                    <li><span class="fas fa-map-marker-alt"style="display:inline-block"></span><span class="text">Uttar badda,Dhaka Bangladesh</span></li>
+                    <li><a href="#"><span class="fas fa-phone-square-alt"></span><span class="text">01812-132131</span></a></li>
+                    <li><a href="#"><span class="fas fa-envelope"></span><span class="text">mrahman162123@bscse.uiu.ac.bd</span></a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+         <div class="col-md-12 text-center">
+              <p>
+                Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fas fa-heart fas-danger" aria-hidden="true"></i> by <a href="index.html" target="_blank">Habib</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <script src="js/bootstrap-validate.js"></script>
+      <script src="js/registration.js"></script>
+      <script src="js/login.js"></script>
+       <script src="js/bootstrap-validate.js"></script>
+      <script src="https://kit.fontawesome.com/c2f2a4da10.js" crossorigin="anonymous"></script>
+      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>     
+</body>
+</html>
