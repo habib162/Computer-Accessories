@@ -99,7 +99,7 @@ fullname.addEventListener('keyup', checkfname);
  var email=document.getElementById('email');
  email.addEventListener('keyup', checkemail);
                 function checkemail(e){
-                     var emalival=username.value;
+                     var emalival=email.value;
                      var emailcheck=/^[A-Za-z0-9_]{3,}[@]{1}[A-Za-z]{3,6}[.]{1}[A-Za-z.]{2,}$/;
             
                      if(emailcheck.test(emalival)){
@@ -141,18 +141,20 @@ fullname.addEventListener('keyup', checkfname);
                                                   password.classList.add('is-invalid');
                                                   password.classList.remove('is-valid');
                                                    }
+                                                
+                                                 var cpassword=document.getElementById('cpwd');
+                                                   cpassword.addEventListener('keyup',checkcpass);
+                                                   function checkcpass(e){
+                                                       var cpassval=cpassword.value;
+                                                        if(cpassval.match(passval)){
+                                                            cpassword.classList.add('is-valid');
+                                                            cpassword.classList.remove('is-invalid');
+                                                        }
+                                                        else{
+                                                            cpassword.classList.add('is-invalid');
+                                                            cpassword.classList.remove('is-valid');
+                                                        }
+                                                   }
                                                   }
                                                                                    
-               var cpassword=document.getElementById('cpwd');
-               cpassword.addEventListener('keyup',checkcpass);
-               function checkcpass(e){
-                   var cpassval=cpassword.value;
-                    if(cpassval.match(passval)){
-                        cpassword.classList.add('is-valid');
-                        cpassword.classList.remove('is-invalid');
-                    }
-                    else{
-                        cpassword.classList.add('is-invalid');
-                        cpassword.classList.remove('is-valid');
-                    }
-               }
+              
